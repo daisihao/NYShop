@@ -1,0 +1,419 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+body {
+	margin: 0px;
+	padding: 0px;
+	
+}
+/* ====================
+     	�м䲿��
+==================== */
+#content {
+	width: 1100px;
+	margin: 0px auto;
+	
+}
+
+#submit_1{
+	font-family: 'Microsoft yahei', sans-serif;
+	cursor:pointer;
+	border:none;
+	outline:none;
+	display: inline-block;
+	font-size: 1em;
+	padding: 10px 34px;
+	background: #555555;
+	color:#fff;
+	text-transform: capitalize;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+/* input[type="submit"]:hover{
+	background: #3CC395;
+} */
+.block {
+	width: 960px;
+	height: auto;
+}
+
+.f_l {
+	float: left;
+}
+
+.f_r {
+	float: right;
+}
+
+.tl {
+	text-align: left;
+}
+
+.tc {
+	text-align: center;
+}
+
+.tr {
+	text-align: right;
+}
+
+.dis {
+	display: block;
+}
+
+.inline {
+	display: inline;
+}
+
+.none {
+	display: none;
+}
+
+.dashed {
+	background: url(images/lineBg.gif) repeat-x left top;
+	color: #3f3f3f;
+	padding: 2px 0 3px 12px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+*+html .clearfix {
+	height: 1%;
+}
+
+.word {
+	word-break: break-all;
+}
+
+.B_blue {
+	border: 1px solid #f0e3de;
+}
+
+.B_input {
+	border: 1px solid #9d5d4e;
+}
+
+.f1 {
+	color: #ff6666;
+}
+
+.f2 {
+	color: #006bd0;
+	font-weight: bold;
+	margin-right: 15px;
+}
+
+.f3 {
+	color: #9e9e9e;
+}
+
+.f4 {
+	color: #fe596a;
+}
+
+.f4_b {
+	color: #fe596a;
+	font-weight: bold;
+}
+
+.f5 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.f6 {
+	color: #814c3b;
+}
+
+.market {
+	font-size: 14px;
+	text-decoration: line-through;
+}
+
+.shop {
+	color: #fe596a;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.market_s {
+	text-decoration: line-through;
+}
+
+.shop_s {
+	color: #fe596a;
+}
+
+#content h6 {
+	height: 23px;
+	line-height: 23px;
+	text-align: right;
+	font-size: 16px;
+	background: #F5DE83;
+	color: #fff;
+	border: 1px solid #fff;
+	padding-right: 10px;
+}
+
+#content h6 span {
+	float: left;
+	padding-left: 15px;
+}
+
+#content {
+	border: 1px solid #E8E8E8;
+	font-size: 14px;
+}
+
+#content p {
+	margin: 0;
+	padding: 0;
+	border: none;
+	list-style-type: none;
+}
+
+#content  .flowBox {
+	border: 1px solid #EEF6F9;
+	background-color: #fff
+}
+
+#content .flowBox table {
+	margin: 5px auto;
+}
+
+/*�м䲿�ֱ�*/
+#content table {
+	width: 100%;
+	background-color: #fff;
+	font-size: 15px;
+}
+
+#content .table01 {
+	width: 100%;
+	background-color: #fff;
+	text-align: right;
+	font-size: 15px;
+}
+
+#content tr {
+	line-height: 30px;
+}
+
+#content .tr1 {
+	background-color: #EEF6F9;
+}
+
+#content .ftx04 {
+	color: #F00;
+	font-size: 15px;
+}
+
+#content #table01 {
+	width: 100%;
+	background-color: #fff;
+	text-align: right;
+}
+
+#content .table .td1 {
+	width: 210px; 
+	margin-left: 200px;
+}
+
+#content .table .td2 {
+	width: 210px;
+	margin-left: 430px;
+}
+
+#content .table td {
+	float: left;
+	margin-top: 8px;
+	margin-left: 25px;
+}
+
+#content .table #_a {
+	margin-left: 360px;
+}
+
+#content .table input {
+	margin-top: -6px;
+	height: 28px;
+	width: 200px;
+}
+
+#content .table span {
+	margin-left: 20px;
+	width: 200px;
+}
+
+#content .table tr {
+	height: 40px;
+}
+
+#content .submit {
+	margin-top:10px;
+	font-family: 'Microsoft yahei', sans-serif;
+	-webkit-appearance: none;
+	cursor:pointer;
+	color: #ffffff;
+	background: #F5DE83;
+	border:none;
+	outline:none;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 14px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#consignee_1 {
+	display: none;
+}
+
+#email_1 {
+	display: none;
+}
+
+#address_1 {
+	display: none;
+}
+
+#zipcode_1 {
+	display: none;
+}
+
+#mobile_1 {
+	display: none;
+}
+
+/*��������ѡ���*/
+#content ul, li, ol {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#content a {
+	outline: none;
+	text-decoration: none;
+}
+
+#content img {
+	vertical-align: middle;
+}
+
+#content i {
+	font-style: normal;
+}
+
+#content .infolist {
+	padding-left: 6.9em;
+	font-size: 14px;
+	position: relative;
+	min-height: 38px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 100%;
+	margin-left: 339px;
+	float: left;
+	clear: both;
+}
+
+#content lable {
+	position: absolute;
+	width: 10%;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	height: 22px;
+	padding: 8px 0;
+	line-height: 22px;
+	font-size: 15px;
+}
+
+#content .infolist .liststyle span {
+	position: relative;
+	height: 36px;
+	line-height: 36px;
+	display: inline-block;
+	border: 1px solid #E8E8E8;
+	border-radius: 5px;
+	padding: 0 0 0 8px;
+	cursor: pointer;
+	background: white;
+	float: left;
+	margin-right: 9px;
+}
+
+#content .infolist .liststyle span i {
+	display: inline-block;
+	height: 36px;
+	line-height: 36px;
+	padding-right: 30px;
+	position: relative;
+}
+
+#content .infolist .liststyle span i:after {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 36px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-image: url(../../images/jt_nor.png);
+	background-repeat: no-repeat;
+	background-position: 0 center;
+	background-size: 10px auto;
+}
+
+#content .infolist .liststyle span ul {
+	width: 100%;
+	border-radius: 0 0 5px 5px;
+	position: absolute;
+	border: 1px solid #E8E8E8;
+	background: white;
+	left: -1px;
+	top: 36px;
+	border-top: 0;
+	margin-bottom: 10px;
+	display: none;
+	z-index: 10;
+}
+
+#content .infolist .liststyle span ul li {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	border-top: 1px solid #E8E8E8;
+}
+
+#content .infolist .liststyle span ul li:first-child {
+	border-top: 0;
+}
+
+#content .infolist .liststyle span ul li a {
+	display: block;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 8px;
+	color: #494949;
+}

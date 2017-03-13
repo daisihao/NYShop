@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+#cs_regsiter_content{
+	margin:0 auto;
+	height: 700px;
+}
+#cs_regsiter_content #cs_regsiter_content_nei{
+		width: 900px;
+	height: 400px;
+	margin:0 auto 0 300px;
+}
+#cs_regsiter_content_nei #cs_regsiter_nei_dv1{
+	left: 123px;
+	top: 149px;
+	width: 113px;
+	height: 26px;
+	z-index: 4;
+	color: black;
+	font-weight: bold;
+	font-size: 24px;
+	margin:0 auto 0 300px;
+}
+#cs_regsiter_content_nei #cs_regsiter_content_nei_dv2{
+	margin:50px auto 0 100px;
+}
+	width:90px;
+    height:16px;
+    padding:10px 25px 10px 5px;
+    border:1px solid #cccccc;
+    float:none;
+    font-size:14px;
+    font-family:arial,"宋体";
+    color: #999;
+    overflow:hidden;
+#cs_regsiter_content_nei #cs_regsiter_content_nei_dv2 .cs_regsiter_td_b{
+	color:red;
+}
+#cs_regsiter_content_nei #cs_regsiter_content_nei_dv2 .cs_regsiter_content_nei_tr{
+	height:70px;
+	line-height:40px;
+
+}
+#cs_regsiter_content_nei #cs_regsiter_content_nei_dv2 .cs_regsiter_content_nei_inp{
+    width:270px;
+    height:16px;
+    padding:10px 25px 10px 5px;
+    border:1px solid #cccccc;
+    float:none;
+    font-size:14px;
+    font-family:arial,"宋体";
+    color: #999;
+    overflow:hidden;
+	
+
+}
+#cs_regsiter_content_nei #cs_regsiter_content_nei_dv2 .cs_regsiter_content_nei_td{
+	text-align:right;font-size:14px;color:#999;padding-right:10px;
+}
+#cs_regsiter_content_nei #cs_regsiter_content_nei_dv2 .cs_table_magstd{
+	text-align:left; padding-left:10px;width:310px
+}
+#cs_regsiter_content_nei_dv2 #cs_regsiter_content_nei_table_td_a1:link{
+	text-decoration:none;
+	background-color: #FFF; 
+	border: #666 1px solid;
+	color: #000; 
+	height: 40px;
+	padding:5px;
+	
+}
+#cs_regsiter_content_nei_dv2 #cs_regsiter_content_nei_table_td_a1:active {color: red; } 
+#cs_regsiter_content_nei_dv2 #cs_regsiter_content_nei_table_td_a1:visited {text-decoration:none;} 
+#cs_regsiter_content_nei_dv2 #cs_regsiter_content_nei_table_td_a1:hover {
+	text-decoration: underline;
+	font-size: 24px;
+}
+
+#cs_regsiter_content_nei_dv2 #cs_regsiter_content_nei_table_td_a2:link{text-decoration:none}
+#cs_regsiter_content_nei_dv2 #cs_regsiter_content_nei_table_td_a2:active {color: red; } 
+#cs_regsiter_content_nei_dv2 #cs_regsiter_content_nei_table_td_a2:visited {text-decoration:none;} 
+#cs_regsiter_content_nei_dv2 #cs_regsiter_content_nei_table_td_a2:hover{text-decoration: underline;}

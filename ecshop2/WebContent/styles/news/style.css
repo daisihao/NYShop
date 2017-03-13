@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#fff;font-size:14px;width:750px;font-family:"宋体",Verdana, Arial;line-height:1.5;margin:0 auto; padding:0; color:#404040;}
+.comment{width:750px;}
+.f1{text-align:center;}
+.f2{font-size:16px;font-weight:bold;margin:0 15px;}
+.f5{ font-size:18px;color:#006bd0;font-weight:bold;margin:20px auto;}
+h3{height:33px; line-height:33px; font-size:16px; color:#39C;text-align:left;padding:0 15px; font-weight:bold;
+  }
+p{margin:10px 25px;}

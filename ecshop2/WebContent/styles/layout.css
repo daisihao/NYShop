@@ -1,0 +1,416 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+}
+#header{
+	width:1100px;
+	margin:0px auto;
+	background:#EEF6F9;
+}
+#header img{
+	width:350px;
+	height:60px;
+}
+#header a img{
+	float:right;
+	width:52px;
+	height:21px;
+	margin-top:20px;
+}
+#header span {
+	margin-left:20px;	
+}
+#header #log img{
+	margin-right:30px;	
+}
+#header #reg img{
+	margin-right:50px;	
+}
+#header #topdiv{
+	margin-left:80px;
+}
+#topdiv ul{
+	margin:0px auto;
+}
+#topdiv ul li{
+	float:left;
+	text-align:center;
+	list-style-type:none;
+}
+#topdiv ul li a{
+	float:left;
+	width:100px;
+	text-decoration:none;
+	color:white;
+	background-color:#5ABAF6;
+	padding:3px 10px;
+	border-right:1px solid white;
+}
+#topdiv ul li a:hover{
+	background-color:blue;
+}
+#header table{
+	float:right;
+	width:250px;
+	margin-top:20px;
+	border:1px solid #DEEFFF;
+	background:#F4FBFE;
+	text-align:center;
+}
+#header table tr td a{
+	text-decoration:none;
+	color:#4290DC;
+	font-size:13px;
+}
+#header table tr td a:hover{
+	color:red;
+}
+#header #search{
+	clear:both;
+	height:40px;
+	background:#2359B1;
+}
+#header #search select{
+	width:180px;
+	margin-left:500px;
+	margin-top:10px;
+}
+#header #search input{
+	width:120px;
+}
+#header #search #a1{
+	width:50px;
+	margin-left:10px;
+	color:white;
+	font-size:13px;
+	text-decoration:none;
+	background:#B7B7B7;
+	padding:2px 15px;
+	text-align:center;
+}
+#header #search #a2{
+	color:white;
+	font-size:14px;
+	text-decoration:none;
+}
+
+#content{
+	width:1100px;
+	margin:0px auto;
+}
+
+#foot1{
+	background:#EEF6F9;
+	width:1100px;
+	height:30px;
+	margin:0px auto;
+	clear:both;
+}
+#foot1 ul{
+		margin:0px auto;
+}
+#foot1 ul li{
+	float:left;
+	text-align:center;
+	list-style-type:none;
+}
+#foot1 ul li a{
+	float:left;
+	width:60px;
+	text-decoration:none;
+	color:#0B71CF;
+	font-size:13px;
+}
+#foot1 a{
+	text-decoration:none;
+	font-size:12px;
+	float:right;
+	margin-right:5px;
+}
+#foot2{
+	background:#EEF6F9;
+	width:1100px;
+	height:140px;
+	margin:5px auto 0px auto;
+	clear:both;
+}
+#foot2 img{
+	height:57px;
+	width:98px;
+	margin-left:50px;
+	margin-top:40px;
+	float:left;
+}
+#foot2 table{
+	float:right;
+	margin-right:150px;
+}
+
+#content #left_menu{
+	float:left;
+	width:200px;
+	margin-top:50px;
+}
+#content #left_menu #login table{
+	height:200px;
+	margin:0px auto;
+}
+#content #left_menu #login table td{
+	text-align:center;
+}
+#content #left_menu #login table #lost{
+	float:right;
+	margin-top:10px;
+}
+#content #left_menu #sort label{
+	margin-left:35px;
+}
+#content #left_menu #sort table{
+	margin-left:20px;
+}
+#content #left_menu #order form table{
+	height:100px;
+	text-align:left;
+}
+#content #detail{
+	float:left;
+	width:900px;
+	height:1350px;
+}
+#content #detail #ad{
+	width:700px;
+	height:300px;
+	float:left;
+}
+/*
+
+	GalleryView Stylesheet
+	
+	Use the CSS rules below to modify the look of your gallery.
+	 
+	To create additional rules, use the markup below as a guide to GalleryView's architecture.
+*/
+
+/* GALLERY LIST */
+/* IMPORTANT - Change '#myGallery' to the ID of your gallery list to prevent a flash of unstyled content */
+#myGallery { display: none;}
+
+.gv_galleryWrap { position: relative; background: #D0EAFF; font-size: 10pt; }
+
+/* GALLERY DIV */
+.gv_gallery { overflow: hidden; position: relative;}
+
+.gv_imageStore { visibility: hidden; position: absolute; top: -10000px; left: -10000px; }
+
+
+/*************************************************/
+/**   PANEL STYLES								**/
+/*************************************************/
+
+.gv_panelWrap { filter: inherit; position: absolute; overflow: hidden; }
+
+.gv_panel-loading { background: url(../images/img-loader.gif) 50% 50% no-repeat #aaa; }
+.gv_frame-loading { background: url(../images/img-loader.gif) 50% 50% no-repeat #aaa; }
+
+/* GALLERY PANELS */
+.gv_panel { filter: inherit; position: absolute; top: 0; left: 0; overflow: hidden; z-index: 100; }
+.gv_panel img { position: absolute; }
+
+.gv_overlay { position: absolute; background: #222; color: white; z-index: 200; }
+.gv_showOverlay { 
+	position: absolute; 
+	width: 20px; 
+	height: 20px; 
+	background: url(../images/info.png) #222; 
+	cursor: pointer;
+	z-index: 200;
+}
+.gv_overlay h4 { color: white; margin: 1em; font-weight: bold; }
+.gv_overlay p { color: white; margin: 1em; }
+
+.gv_infobar {
+	background: #222;
+	padding: 0 0.5em;
+	line-height: 1.5em;
+	height: 1.5em;
+	font-size: 10pt;
+	font-weight: bold;
+	color: white;
+	
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: none;
+	vertical-align: middle;
+	z-index: 2000;
+	
+}
+
+
+/*************************************************/
+/**   FILMSTRIP STYLES							**/
+/*************************************************/
+
+.gv_filmstripWrap { overflow: hidden; position: absolute; }
+
+
+/* FILMSTRIP */
+.gv_filmstrip { margin: 0; padding: 0; position: absolute; top: 0; left: 0; }
+
+/* FILMSTRIP FRAMES (contains both images and captions) */
+.gv_frame { 
+	cursor: pointer;
+	float: left;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+/* WRAPPER FOR FILMSTRIP IMAGES */
+.gv_frame .gv_thumbnail { position: relative;overflow: hidden !important; }
+
+/* WRAPPER FOR CURRENT FILMSTRIP IMAGE */
+.gv_frame.current .gv_thumbnail {}
+
+/* FRAME IMAGES */
+.gv_frame img { border: none; position: absolute; }
+
+/* FRAME CAPTION */
+.gv_frame .gv_caption { height: 14px; line-height: 14px; font-size: 10px; text-align: center; color:white; }
+
+/* CURRENT FRAME CAPTION */
+.gv_frame.current .gv_caption { }
+
+/* POINTER FOR CURRENT FRAME */
+.gv_pointer {
+	border-color: black;
+}
+
+/* NAVIGATION BUTTONS */
+.gv_navWrap {
+	text-align: center;
+	position: absolute;
+}
+.gv_navPlay,
+.gv_navPause,
+.gv_navNext,
+.gv_navPrev {
+	
+	opacity: 0.3;
+	-moz-opacity: 0.3;
+	-khtml-opacity: 0.3;
+	filter:alpha(opacity=30);
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	vertical-align: middle;
+}
+.gv_navPlay:hover,
+.gv_navPause:hover,
+.gv_navNext:hover,
+.gv_navPrev:hover {
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	filter:alpha(opacity=80);
+}
+
+.gv_panelNavPrev,
+.gv_panelNavNext {
+	position: absolute;
+	display: none;
+	opacity: 0.50;
+	-moz-opacity: 0.50;
+	-khtml-opacity: 0.50;
+	filter:alpha(opacity=50);
+	z-index: 200;
+}
+
+.gv_panelNavPrev:hover,
+.gv_panelNavNext:hover {
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+	-khtml-opacity: 0.9;
+	filter:alpha(opacity=90);
+}
+
+.gv_navPlay {
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	background: url(../images/play-big.png) top left no-repeat;
+}
+.gv_navPause {
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	background: url(../images/pause-big.png) top left no-repeat;
+}
+.gv_navNext {
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	background: url(../images/next.png) top left no-repeat;
+}
+.gv_navPrev {
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	background: url(../images/prev.png) top right no-repeat;
+}
+.gv_panelNavNext {
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	background: url(../images/panel-next.png) top left no-repeat;
+}
+.gv_panelNavPrev {
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	background: url(../images/panel-prev.png) top right no-repeat;
+}
+#content #detail #prod{
+	margin-top:20px;
+	height:550px;
+	float:left;
+}
+#content #detail #prod .prod img{
+	width:80%;
+	height:80%;
+}
+#content #arti{
+	float:left;
+	background:#f2f2f2;
+	height:355px;
+	width:200px;
+}
+#content #detail #prod .item{
+	font-size:20px;
+	background:#EDF7FF;
+}
+#content #detail #prod .price{
+	color:red;
+	font-size:18px;
+	text-align:center;
+}
+#content #detail #prod .desc a{
+	color:black;
+}
+#content #detail #prod .desc a:link{
+	text-decoration:none;
+}
+#content #detail #prod .desc a:hover{
+	color:red;
+	text-decoration:underline;
+}
+
+#tabtitle1,#tabtitle2{float:left;width:91px;height:33px;}
+			#tabtitle1,#tabtitle2,#closeLeft,#closeRight{cursor:pointer;}
+	#tab{background:url(../images/bg.gif) no-repeat -760px -476px;}
+ 	#tabtitle2{width:142px;}
+		#container #tab.over{position:absolute;background:url(../images/bg.gif) no-repeat -213px -12px;}
+ 	#tabbody{clear:both;width:153px;height:145px;display:none;}

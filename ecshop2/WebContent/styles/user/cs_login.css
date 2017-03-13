@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+#cs_login_comer1{
+	margin:0 auto;
+	height: 500px;
+}
+#cs_login_nei{
+	width: 500px;
+	height: 400px;
+	margin:0 auto 0 550px;
+}
+#cs_login_nei #cs_login_comer2{
+	font-size: 30px;
+	font-weight: bold;
+	color: #000;
+	margin:20px;
+}
+#cs_login_nei .cs_login_tble1_tf1{
+	width:238px;
+    height:16px;
+padding:10px 25px 10px 5px;
+    border:1px solid #cccccc;
+    font-size:14px;
+    font-family:arial,"宋体";
+    color: #999;
+    overflow:hidden;
+    margin:0 auto 20px auto;
+}
+#cs_login_nei #cs_login_tble1_tf3{
+	width:150px;
+    height:16px;
+    padding:10px 10px 10px 5px;
+    border:1px solid #cccccc;
+    font-size:14px;
+    font-family:arial,"宋体";
+    color: #999;
+    overflow:hidden;
+    margin:0 auto 20px auto;
+	
+}
+#cs_login_nei #cs_login_tble1 #tabl1 tr td{
+	 margin:0 auto 30px auto;
+     padding:10px 25px 10px 5px;
+}
+#cs_login_nei #cs_login_tble1 #tabl2 tr th{
+	 margin:0 auto 30px auto;
+     padding:10px 25px 10px 5px;
+}
+#cs_login_nei #cs_login_tble1 #tabl3 tr th{
+	 margin:0 auto 30px auto;
+     padding:10px 25px 10px 5px;
+}
+#cs_login_nei #cs_login_tble1 #cs_logon_tble_span2{
+	size:14px;
+	margin-left:30px;
+	color:red;
+}
+#cs_login_nei #cs_login_tble1 #cs_logon_tble_span1{
+
+	margin-left:30px;
+    width:60px;
+    height:16px;
+}
+
+#cs_login_nei #cs_login_tble1 a:link {color: red; text-decoration:none;}
+#cs_login_nei #cs_login_tble1 a:active:{color: red; } 
+#cs_login_nei #cs_login_tble1 a:visited {text-decoration:none;} 
+#cs_login_nei #cs_login_tble1 a:hover {color: red; text-decoration:underline;}
